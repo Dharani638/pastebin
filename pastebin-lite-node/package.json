@@ -1,0 +1,13 @@
+{
+  "name": "pastebin-lite",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": { "start": "node src/index.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "nanoid": "^5.0.6",
+    "ioredis": "^5.4.1",
+    "escape-html": "^1.0.3",
+    "dotenv": "^16.4.5"
+  }
+}
